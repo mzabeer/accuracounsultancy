@@ -6,7 +6,12 @@ import { Reveal, SectionHeading } from "./primitives";
 const details = [
   { icon: Phone, label: "Phone", value: "+973 3890 5775", href: "tel:+97338905775" },
   { icon: Mail, label: "Email", value: "accuraconsultancy01@gmail.com", href: "mailto:accuraconsultancy01@gmail.com" },
-  { icon: MapPin, label: "Office", value: "Diplomatic Area, Manama, Kingdom of Bahrain", href: undefined },
+  {
+    icon: MapPin,
+    label: "Commercial Address",
+    value: "HIDD / الحد, Block 115, Road 1527, Building 2004, Flat/Shop No. 2067",
+    href: undefined,
+  },
 ];
 
 export function Contact() {
