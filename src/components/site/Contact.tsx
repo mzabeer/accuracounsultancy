@@ -5,7 +5,7 @@ import { Reveal, SectionHeading } from "./primitives";
 
 const details = [
   { icon: Phone, label: "Phone", value: "+973 3890 5775", href: "tel:+97338905775" },
-  { icon: Mail, label: "Email", value: "accuraconsultancy01@gmail.com", href: "mailto:accuraconsultancy01@gmail.com" },
+  { icon: Mail, label: "Email", value: "Info@accura-consultancy.com", href: "mailto:Info@accura-consultancy.com" },
   {
     icon: MapPin,
     label: "Commercial Address",

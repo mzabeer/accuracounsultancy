@@ -1,4 +1,4 @@
-import { Linkedin, Instagram, Facebook } from "lucide-react";
+import { Linkedin, Instagram, Facebook, Mail } from "lucide-react";
 import { useState, type FormEvent } from "react";
 import { toast } from "sonner";
 import logo from "@/assets/accura-logo.png";
@@ -73,6 +73,14 @@ export function Footer() {
                 </a>
               ))}
             </div>
+
+            <a
+              href="mailto:Info@accura-consultancy.com"
+              className="mt-5 inline-flex items-center gap-2 text-sm text-white/80 transition-colors hover:text-gold"
+            >
+              <Mail className="h-4 w-4" strokeWidth={1.5} />
+              Info@accura-consultancy.com
+            </a>
           </div>
 
           <div>
